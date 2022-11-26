@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <style>
+    
+   /* Set black background color, white text and some padding */
+    footer{
+      background-color: #636161;
+      color: white;
+      padding: 10px;
+    }
+    .sidenav {
+      padding-top: 20px;
+      background-color: #ffffff;
+      height: 100%;
+      font-size: medium;
+    } 
+   .nav-bar{
+    margin-bottom: 0;
+    border-radius: 0;
+    background: #636161;
+    text-align: center;
+    }
+    .nav-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #ffffff;
+    }
+    .nav-bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    }
+    .nav-bar ul li a{
+    font-size: medium;
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .active, .nav-bar ul li:hover{
+    background: #7a7a7a;
+    border-radius: 3px;
+    }
+
+</style>
+</head>
+<body>
+
+<div class="nav-bar">
+    <ul>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Hikes</a></li>
+        <li><a href="#">How To</a></li>
+        <li><a href="#">Skills</a></li>
+        <li><a href="#">Gear</a></li>
+        <li><a href="#">Thru-Hiking</a></li>
+        <li><a href="#">Ultralight</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Gallery</a></li>
+    </ul>
+</div>
+
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="RP1.JPG" class="d-block w-100" alt="1st">
+      </div>
+      <div class="carousel-item">
+        <img src="RP2.jpg" class="d-block w-100" alt="2nd">
+      </div>
+      <div class="carousel-item">
+        <img src="RP3.JPG" class="d-block w-100" alt="3rd">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <div class="container-fluid text-center">    
+  <div class="row content">
+    
+    <div class="col-sm-3 sidenav"><br>
+        <h1>My Books</h1>
+        <div class="row">
+            <div class="column">
+                <img src="B1.jpg" alt="Book1"><br>
+                <img src="B2.jpg" alt="Book2"><br>
+                <img src="B3.jpg" alt="Book3"><br>
+                <img src="B4.jpg" alt="Book4"><br>
+            </div>
+        </div>
+    </div>
+      
+      
+  
+    <div class="col-sm-8 text-justify"> 
+      <br><br>
+        <h1>Websites for Hikers and Backpackers</h1><br>
+      <p style="font-size:medium; font-family: 'Gill Sans MT';">These days the internet is full of backpacking blogs and websites. When coupled with the multitude of online hiking forums, advice is never more than a click or two away. However, not all advice is created equal, and the fact is that more than a few of the folks doling out backcountry wisdom have a relatively limited amount of practical experience out in the field. The list of sites below are ones that I have personally found to helpful over the years. They contain a wide range of information about gear, lightweight backpacking techniques, wilderness skills, health and safety, trip reports and up-to-date news for outdoorsy types. The compilation is by no means exhaustive, and I’m sure there are plenty of other great online backpacking resources of which I am unaware:</p>
+    <ul>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Alan: Trip reports, gear recommendations, hiking guides and how tos. The site’s author, Alan Dixon, was the co-founder of Backpacking Light in 2001.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Andrew Skurka: Gear reviews, skills tutorials and trip reports from the author of The Ultimate Hiker’s Gear Guide.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Backpacking Light: Articles, reviews and forum geared towards lightweight and ultra-lightweight backpackers.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">BasecampMD: A good source of information for anyone interested in hiking at high altitudes.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Besthike: A wide-ranging index of some of the best hikes, treks and tramps from around the world.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Bushwalk.com: Australian online hiking forum. Good source of information on a multitude of bushwalking options around the country.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Caltopo: An excellent online mapping and planning tool that has become a go-to site for many folks in the US hiking community.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Chris Townsend Outdoors: Trip reports, gear reviews and skills articles from the author of The Backpacker’s Handbook.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Gear Institute: Wide-ranging compilation of outdoor gear reviews (hiking, climbing, cycling, fishing and skiing).</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Gear Junkie: All the latest in gear reviews and news from the outdoor world.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Hiking in Finland: Gear Reviews and European trip reports from Hendrik Morkel. His long running, The Week in Review, is a compilation of the latest news and articles from around the hiking and backpacking universe.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">International Fuel Names: Translations for the names of fuels commonly used in backpacking stoves in more than sixty countries around the world.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Mark Verber’s Recommended Outdoor Gear: Gear reviews and general information on light and ultralight backpacking.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Pmags.com:  Across-the-board commentaries on all things hiking and backpacking. Practical, too the point and with a little bit of humour thrown into the mix.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">REI Blog: Tips, stories & gear reports.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Section Hiker: Gear reviews and how tos. Philip Werner, the site’s author, is one of the most prolific outdoor writers on the web.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Semi-rad: A humorous and often insightful look at the outdoors lifestyle.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Summitpost: Logistical information and trip reports for a wide range of hikes around North America.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">The Great Outdoors / TGO Magazine – The online version of the UK’s original outdoor magazine. Trip reports, gear reviews and useful skills section. Also contains up-to-date weather information for British hikes, and all the latest news on what’s happening in the UK outdoors scene.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Thruhiker.com: Nutritional recommendations for backpackers and other endurance exercise enthusiasts. The site’s author is nutritionist and long distance hiker, Dr. Brenda Braaten.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Trail Groove: US-based online hiking and backpacking magazine. Trip reports, backpacking recipes, photography, forum and gear reviews.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Trail Posse: An informative site covering race and equity in the outdoors. Lots of thought-provoking articles.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Treeline Review: Detailed reviews and rankings of a wide range of lightweight backpacking equipment, as well as other outdoor gear.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Ultralight Insights: In depth UL gear reviews and commentaries on new technologies. The author is Will Rietveld, who has been reviewing gear for Backpacking Light (see above) since 2004.</li>
+        <li style="font-size: medium; font-family: 'Gill Sans MT';">Ultralight Reddit: Useful forum for hikers interested in lightening their pack load. Pack shakedowns, skills articles, youtube tutorials, trip reports and gear lists.</li>
+    </ul>
+
+    <hr>
+    <div class="books">
+        <h1>Sponsors</h1>
+        <img src="SP.jfif" alt="Spon1" width="200" Height="200" image="center">
+        <img src="PL.jpg" alt="Spon2" Height="200">
+        <img src="BB.jpg" alt="Spon1" width="200">
+        <img src="SPON.jpg" alt="Spon1" width="300" Height="200">
+        <img src="SPON1.jpg" alt="Spon1" width="300" Height="200">
+        <img src="SPON3.jpg" alt="Spon1" width="300" Height="200">
+
+    </div>
+</div>
+    
+<hr>
+
+<br><br>
+<footer class="container-fluid text-center">
+  <p style="font-size: large; font-family: 'Gill Sans MT';">All Right Reserve</p>
+</footer>
+
+</body>
+</html>
